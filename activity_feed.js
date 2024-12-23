@@ -18,7 +18,12 @@ const activityFeed = [
     id: 13,
     title: 'Status Update',
     body: 'Charlie updated their status: "Excited about the new project!"'
-  }
+  },
+  {
+    id: 1344,
+    title: 'Status sadfadadad',
+    body: 'dfsafdaaffdsafasfsadfasf: "Excited about the new project!"'
+  },
 ];
 
 app.get('/feed', (req, res) => {
